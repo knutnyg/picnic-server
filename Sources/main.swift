@@ -6,7 +6,7 @@ let router = Router()
 // Handle HTTP GET requests to /
 router.get("/api") {
     request, response, next in
-    response.send("Hello, Worldzz!!")
+    response.send("Hello, World test redeploy!!")
     next()
 }
 
