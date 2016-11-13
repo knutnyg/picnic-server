@@ -1,5 +1,9 @@
 #!/bin/bash
+
+echo "sourcing profile"
+source ~/.bashrc
 echo "Environment is $PICNIC_ENVIRONMENT:";
+
 
 GIT_PULL="git pull";
 CD_SRC="echo cd /home/knut/src/picnic-server; cd /home/knut/src/picnic-server";
