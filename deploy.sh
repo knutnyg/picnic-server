@@ -11,6 +11,7 @@ RUN=".build/debug/picnic-server&";
 
 if [ "$PICNIC_ENVIRONMENT" == "PRODUCTION" ]; then
 	echo "in production, doing nothing";
+	echo $PATH;
 
 elif [ "$PICNIC_ENVIRONMENT" == "DEVELOP" ]; then
 	echo "in develop";
